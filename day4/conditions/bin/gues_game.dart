@@ -12,7 +12,8 @@ void main() {
   while (guess != answer) {
     guess = prompt("Enter your guess:");
     count++;
-    print("Try again you have chances ${3 - count}");
+    print(
+        "Try again you have chances ${3 - count}"); // you have 3 chances to guess the correct answer
     if (count == 3) {
       print("You lost");
       break;
