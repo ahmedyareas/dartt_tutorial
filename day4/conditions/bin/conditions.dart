@@ -1,3 +1,5 @@
+import 'dart:collection';
+import 'dart:developer';
 import 'dart:io';
 import 'dart:math';
 
@@ -78,10 +80,44 @@ void main() {
   // int? name = int.parse(stdin.readLineSync()!);
   // print(name.runtimeType);
 
-  int num = 1;
-  int sum = 0;
-  for (num; num <= 10; num++) {
-    sum = sum + num;
+  // int num = 1;
+  // int sum = 0;
+  // for (num; num <= 10; num++) {
+  //   sum = sum + num;
+  // }
+  // print("Total of Natural numbers is $sum");
+  List<String> names = ["John", "Doe", "Smith"];
+  for (int i = 0; i < names.length; i++) {
+    print(names[i]);
   }
-  print("Total of Natural numbers is $sum");
+
+  // while loops
+  // var num = 10;
+  // while (num > 0) {
+  //   print(num);
+  //   num--;
+  // }
+
+  // print("\n\t");
+  // List<String> fruits = ["Apple", "Banana", "Mango"];
+  // int j = 0;
+  // while (j < fruits.length) {
+  //   print(fruits[j].toUpperCase());
+  //   j++;
+  // }
+  print("\n");
+  //for in loop
+  // List<String> friend = ["Ali", "Jama", "Ahmed"];
+  // for (var number in friend) {
+  //   print(number);
+  // }
+
+  // // do-while loop
+
+  int a = 0;
+  int max = 2;
+  do {
+    print("The value is : $a");
+    a++;
+  } while (a <= max);
 }
