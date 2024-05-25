@@ -86,10 +86,10 @@ void main() {
   //   sum = sum + num;
   // }
   // print("Total of Natural numbers is $sum");
-  List<String> names = ["John", "Doe", "Smith"];
-  for (int i = 0; i < names.length; i++) {
-    print(names[i]);
-  }
+  // List<String> names = ["John", "Doe", "Smith"];
+  // for (int i = 0; i < names.length; i++) {
+  //   print(names[i]);
+  // }
 
   // while loops
   // var num = 10;
@@ -114,10 +114,33 @@ void main() {
 
   // // do-while loop
 
-  int a = 0;
-  int max = 2;
-  do {
-    print("The value is : $a");
-    a++;
-  } while (a <= max);
+  // int a = 1;
+  // int max = 5;
+  // do {
+  //   print("The value is : $a");
+  //   a++;
+  // } while (a <= max);
+
+  // nested loop
+  int i, j;
+  int table_no = 12;
+  int max_no = 12;
+  for (i = 1; i <= table_no; i++) {
+    // outer loop
+    print("\nMultiplication of $i ");
+    for (j = 0; j <= max_no; j++) {
+      // inner loop
+      print("$i * $j = ${i * j} \t");
+    }
+  }
+
+// // infinite while loop
+//   while (true) {
+//     print("Welcome to JavaTpoint")
+//   }
+
+// Boolean expression
+  bool check;
+  check = 10 > 5;
+  print(check);
 }
