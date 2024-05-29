@@ -2,6 +2,9 @@ import 'dart:io';
 
 void main() {
   //Type inference
+  var name = "Dart";
+  name = "Ali";
+  print(name);
   //Explicit type
   //Dynamic type
   dynamic name = "Dart";

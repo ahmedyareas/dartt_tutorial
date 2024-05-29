@@ -1,0 +1,4 @@
+Hello, my name is Ahmed
+My Friend's name is : Mohamed
+My Friend's name is : Jama
+My Friend's name is : Ali

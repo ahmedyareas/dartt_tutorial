@@ -57,4 +57,8 @@ void main() {
   // print(names);
   // names.insert(0, "Ahmed");
   // print(names);
+  // names.remove("Doe");
+  // print(names);
+  numbers[0] = 100;
+  print(numbers);
 }
