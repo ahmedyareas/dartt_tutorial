@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   // 1-Write a dart program to add your name to “hello.txt” file.
-  File f = File('stduent.csv');
+  // File f = File('stduent.csv');
   //f.writeAsStringSync('Hello, my name is Ahmed\n');
   // 2-Write a dart program to append your friends name to a file that already has your name.
   // f.writeAsStringSync("My Friend's name is : Mohamed\n", mode: FileMode.append);
@@ -32,6 +32,9 @@ void main() {
 //   f.writeAsStringSync('Mohamed , 30 , Giza\n', mode: FileMode.append);
 //   f.writeAsStringSync('Ali , 20 , Alexandria\n', mode: FileMode.append);
 //   f.writeAsStringSync('Jama , 22 , Aswan\n', mode: FileMode.append);
-  String contents = f.readAsStringSync();
-  print(contents);
+  // String contents = f.readAsStringSync();
+  // print(contents);
+  File file = File('stduent.csv');
+  file.readAsStringSync();
+  print(file.readAsStringSync());
 }
