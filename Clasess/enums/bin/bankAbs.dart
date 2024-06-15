@@ -27,7 +27,7 @@ class SBI extends Bank {
 
 class ICICI extends Bank {
   // Constructor
-  ICICI(String name, double rate, int q) : super(name, rate);
+  ICICI(String name, double rate) : super(name, rate);
 
   // Implementation of interest()
   @override
@@ -38,7 +38,7 @@ class ICICI extends Bank {
 
 void main() {
   SBI sbi = SBI('SBI', 8.4);
-  ICICI icici = ICICI('ICICI', 7.3, 7);
+  ICICI icici = ICICI('ICICI', 7.3);
 
   sbi.interest();
   icici.interest();
