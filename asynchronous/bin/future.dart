@@ -20,7 +20,13 @@ Future<String> middleData() {
   return Future.delayed(Duration(seconds: 3), () => "Hello");
 }
 
+Future<int> dataId() {
+  return Future.delayed(Duration(seconds: 3), () => 5);
+}
+
 void getdata() async {
   String data = await middleData();
   print(data);
+  int dataid = await dataId();
+  print(dataid);
 }
