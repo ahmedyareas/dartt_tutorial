@@ -6,10 +6,9 @@
 // This is also called Where Filter in dart
 void main() {
   List<int> numbers = [2, 3, 4, 6, 8, 10, 11, 12, 13, 14, 15, 21];
-  numbers.update(2)= 5;
+  //numbers.update(2)= 5;
   // update the value of index 2
 
-  
   // add
   numbers.add(9);
 
